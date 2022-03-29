@@ -1,0 +1,188 @@
+.footer {
+    overflow: hidden;
+    padding-top: 140px;
+
+    // .footer__wrapper
+
+    &__wrapper {
+        max-width: 1250px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+       
+    }
+
+    // .footer__item
+
+    &__item {
+        width: 45%;
+    }
+
+    // .footer__descr
+
+    &__descr {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    // .footer__menu
+
+    &__menu {
+        display: flex;
+    }
+
+    // .footer__menu-item
+
+    &__menu-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 89px;
+    }
+
+    // .footer__menu-link
+
+    &__menu-link {
+        display: flex;
+        align-items: center;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 60px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7);
+        &:hover{
+            color: $white;
+
+            .footer__menu-img path{
+                stroke: $white;
+                fill-opacity: 1;
+                fill: $white;
+            }
+        }
+        &:active{
+            color: $green;
+
+            .footer__menu-img path {
+                stroke: $green;
+                fill-opacity: 1;
+                fill: $green;
+            }
+        }
+
+    }
+
+    // .footer__menu-img
+
+    &__menu-img {
+        margin-right: 20px;
+    }
+
+    // .footer__img-1
+
+    &__img-1 {
+        max-width: 286px;
+        height: 310px;
+        width: 100%;
+        background: url(../img/box-2.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 0px;
+        top: -120px;
+        z-index: 5;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/box-2@2x.png") no-repeat;
+            background-size: contain;
+        }
+    }
+
+    // .footer__img-2
+
+    &__img-2 {
+        max-width: 673px;
+        width: 100%;
+        height: 715px;
+        background: url(../img/CoClut.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: -200px;
+        top: -380px;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/CoClut2@x.png") no-repeat;
+            background-size: contain;
+        }
+    }
+
+    // .footer__bottom
+
+    &__bottom {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+
+
+    }
+    &__content{
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    // .footer__bottom-item
+
+    &__bottom-item {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        color: $white;
+        text-transform: uppercase;
+        span {
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.footer-logo {
+
+    // .footer-logo__img
+
+    &__img {}
+}
+.footer__menu-link:hover .footer__menu-img g path {
+    fill: $white;
+   
+
+}
+.footer__item-mr{
+    width: 65%;
+}
+.footer__bottom-item__link{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    color: $white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 60px;
+    position: relative;
+    z-index: 10;
+    &:last-child{
+        margin-right: 0;
+    }
+    &:active{
+        color: $green;
+    }
+}
+.timer__content .time{
+    z-index: 1;
+}

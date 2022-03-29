@@ -1,0 +1,140 @@
+.clash-of-coins {
+    padding-top: 80px;
+    height: 1050px;
+
+    // .clash-of-coins__wrapper
+
+    &__wrapper {
+        max-width: 1544px;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+    }
+
+    // .clash-of-coins__info
+
+    &__info {
+        background: linear-gradient(180deg, #176F25 0%, #5CA826 75.52%);
+        max-width: 1053px;
+        width: 100%;
+        height: 604px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        border-right: 4px solid rgba(5, 35, 40, 0.4);
+        padding: 76px 95px 142px 172px;
+    }
+
+    // .clash-of-coins__subtitle
+
+    &__subtitle {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 80px;
+        color: $yelloy;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        margin-top: 0;
+    }
+
+    // .clash-of-coins__title
+
+    &__title {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 80px;
+        color: $white;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    // .clash-of-coins__text
+
+    &__text {
+        margin-left: 104px;
+        margin-top: 40px;
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: $white;
+        
+    }
+
+    // .clash-of-coins__top
+
+    &__top {
+        height: 604px;
+        padding: 70px 20px 89px 70px;
+        background: rgba(5, 35, 40, 0.4);
+        max-width: 491px;
+        width: 100%;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    // .clash-of-coins__item
+
+    &__item {}
+
+    // .clash-of-coins__img-top
+
+    &__img-top {
+        width: 224px;
+        height: 350px;
+        background: url(../img/bomb.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 0;
+        top: -280px;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/bomb@2x.png") no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    // .clash-of-coins__img-bottom
+
+    &__img-bottom {
+        width: 1116px;
+        height: 617px;
+        background: url(../img/CoC_towers-1.png);
+        background-size: contain;
+        position: absolute;
+        left: -190px;
+        bottom: -480px;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/CoC_towers-1@2x.png") no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+.clash-of-coins__item__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-transform: uppercase;
+    color: $green;
+    border-bottom: 2px solid $green;
+    max-width: 247px;
+    
+}
+.clash-of-coins__item__list__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.clash-of-coins__item__list__item img{
+    margin-right: 19px;
+}
+.clash-of-coins__item__list__item span {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: $white;
+}

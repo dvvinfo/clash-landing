@@ -1,0 +1,221 @@
+.subscribe {
+
+    padding-top: 185px;
+    // .subscribe__wrapper
+
+    &__wrapper {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    // .subscribe__title-wrapper
+
+    &__title-wrapper {
+        position: relative;
+
+    }
+
+    // .subscribe__subtitle
+
+    &__subtitle {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 80px;
+        text-transform: uppercase;
+        color: $yelloy;
+        margin: 0 0 16px 0;
+    }
+    &__title{
+        font-style: italic;
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 80px;
+        color: $white;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    &__img{
+        max-width: 272px;
+        width: 100%;
+        height: 371px;
+        background: url(../img/CoC_master_idle.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 0;
+        top: -110px;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/CoC_master_idle@2x.png") no-repeat ;
+            background-size: contain;
+        }
+    }
+
+    // .subscribe__social
+
+    &__social {
+        max-width: 787px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 120px auto 0 auto;
+    }
+
+    // .subscribe__social-iem
+
+    &__social-iem {
+        
+    }
+
+    // .subscribe__social-link
+
+    &__social-link-1 {
+        display: block;
+        width: 189px;
+        height: 192px;
+        background: url(../img/icons/twitter.svg) no-repeat;
+        background-size: contain;
+        &:hover{
+            background: url(../img/icons/twitter-hover.svg) no-repeat;
+            background-size: contain;
+        }
+    }
+     &__social-link-2 {
+         display: block;
+         width: 189px;
+         height: 192px;
+         background: url(../img/icons/teletgram-ru.svg) no-repeat;
+         background-size: contain;
+
+         &:hover {
+             background: url(../img/icons/telegram-ru-hover.svg) no-repeat;
+             background-size: contain;
+         }
+     }
+     &__social-link-3 {
+         display: block;
+         width: 189px;
+         height: 192px;
+         background: url(../img/icons/telegram-usa.svg) no-repeat;
+         background-size: contain;
+
+         &:hover {
+             background: url(../img/icons/telegram-usa-hover.svg) no-repeat;
+             background-size: contain;
+         }
+     }
+     
+
+    // .subscribe__content
+
+    &__content {
+        padding-top: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .subscribe__info
+
+    &__info {margin-right: 20px;}
+
+    // .subscribe__info-item
+
+    &__info-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+        
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    // .subscribe__info-img
+
+    &__info-img {}
+
+    // .subscribe__info-text
+
+    &__info-text {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: $blue;
+        margin-left: 20px;
+        
+    }
+
+    // .subscribe__text
+
+    &__text {
+        margin-right: 20px;
+    }
+
+    // .subscribe__text-title
+
+    &__text-title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 77px;
+        text-transform: uppercase;
+        color: $yelloy;
+        margin: 0;
+        span{
+            display: block;
+            margin-left: 42px;
+        }
+    }
+
+    // .subscribe__text-descr
+
+    &__text-descr {
+        font-family: "Fira Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 42px;
+        color: $white;
+        margin-left: 42px;
+        margin-top: 20px;
+    }
+
+    &__sociall{
+        display: flex;
+        align-items: flex-end;
+        height: 258px;
+    }
+
+    // .subscribe__social-item
+
+    &__sociall-item {
+        margin-right: 67px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    // .subscribe__social-img
+
+    &__sociall-img {}
+}
+.mt-1{
+    margin-top: 20px;
+}
+.ml-1{
+    margin-left: 25px;
+}
+.ml-2 {
+    margin-left: 45px;
+}
+
+.subscribe__social-link-4 {
+    display: none;
+    width: 189px;
+    height: 192px;
+    background: url(../img/icons/giscord-blue.svg) no-repeat;
+    background-size: contain;
+
+}
+

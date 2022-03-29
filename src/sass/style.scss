@@ -1,0 +1,39 @@
+@import 'libs/normalize';
+@import 'libs/font';
+@import 'libs/animate';
+@import 'libs/slick';
+@import 'libs/slick-theme';
+
+@import 'base/variables';
+@import 'base/animations';
+* {
+    font-family: 'Alegreya Sans',
+    sans-serif;
+    // font-family: 'Fira Sans',
+    // sans-serif;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+.wrapper {
+   
+    
+    margin: 0 auto;
+    line-height: normal
+   
+}
+@import 'blocks/menu';
+@import 'blocks/header';
+@import 'blocks/first';
+@import 'blocks/advantages';
+@import 'blocks/skills';
+@import 'blocks/clash-of-coins';
+@import 'blocks/road-map';
+@import 'blocks/subscribe';
+@import 'blocks/partners';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'base/media';
+@import 'base/media_retina';
+

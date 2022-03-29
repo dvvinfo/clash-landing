@@ -1,0 +1,133 @@
+.partners {
+    padding-top: 230px;
+    
+    position: relative;
+
+    // .partners__content
+
+    &__content {
+        max-width: 900px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    // .partners__content-img
+
+    &__content-img {
+        max-width: 326px;
+        width: 100%;
+        height: 284px;
+        background: url(../img/features-bottom.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: -300px;
+        top: -90px;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/features-bottom@2x.png") no-repeat;
+            background-size: contain;
+        }
+    }
+
+    // .partners__title-wrapper
+
+    &__title-wrapper {
+        margin-bottom: 85px;
+    }
+
+    // .partners__title
+
+    &__title {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 80px;
+        text-transform: uppercase;
+        text-align: center;
+        color: $white;
+        margin: 0;
+    }
+
+    // .partners__wrapper
+
+    &__wrapper {
+        margin-bottom: 77px;
+        position: relative;
+        z-index: 5;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    // .partners__list
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .partners__item
+
+    &__item {}
+
+    // .partners__logo
+
+    &__logo {
+        &:hover{
+            g path {
+                fill: $white;
+            }
+        }
+    }
+
+    // .partners__img
+
+    &__img {
+        max-width: 570px;
+        width: 100%;
+        height: 558px;
+        background: url(../img/airdrop2.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 250px;
+        left: 0;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/airdrop2@2x.png") no-repeat;
+            background-size: contain;
+        }
+    }
+
+    &__exists-in{
+        max-width: 1112px;
+        margin: 0 auto;
+        padding-top: 67px;
+    }
+}
+.partners__exists-in__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: $white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.timer__content{
+    max-width: 1627px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.partners__item:hover .partners__logo path {
+stroke: $white;
+
+fill-opacity: 1;
+}
+.partners__exists-in__logo:hover path{
+    fill: #FFD53F;
+}

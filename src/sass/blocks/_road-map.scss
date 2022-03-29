@@ -1,0 +1,362 @@
+.road-map {
+    height: 700px;
+
+    // .road-map__wrapper
+
+    &__wrapper {
+        padding-left: 67px;
+        position: relative;
+        height: 100%;
+    }
+
+    // .road-map__img-bg
+
+    &__img-bg {
+        max-width: 568px;
+        width: 100%;
+        height: 585px;
+        background: url(../img/blueflag2.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 200px;
+        top: -260px;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/blueflag2@2x.png") no-repeat center center;
+            background-size: contain;
+        }
+    }
+
+    // .road-map__top
+
+    &__top {}
+
+    // .road-map__title
+
+    &__title {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 108px;
+        text-transform: uppercase;
+        color: $white;
+        text-align: center;
+        margin: 0;
+        position: relative;
+        z-index: 5;
+    }
+
+    // .road-map__subtitle
+
+    &__subtitle {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 77px;
+        color: $yelloy;
+        text-align: center;
+        margin: 0;
+    }
+
+    // .road-map__content
+
+    &__content {
+        margin-top: 50px;
+        height: 600px;
+        overflow: hidden;
+       display: flex;
+        position: relative;
+       
+        
+    }
+
+    // .road-map__clock
+
+    &__clock {
+        max-width: 482px;
+        width: 100%;
+        height: 511px;
+        background: url(../../img/clock.png) no-repeat ;
+        background-size: contain;
+        position: relative;
+        z-index: 5;
+        top: 0px;
+        left: -40px;
+        flex-shrink: 0;
+        @media (min-resolution: 2dppx) {
+            background: url("../img/clock@2x.png") no-repeat left;
+            background-size: contain;
+        }
+    }
+
+    // .road-map__carousel
+
+    &__carousel {
+        display: flex;
+        // background: url(../img/line.svg) no-repeat left center;
+        background-size: auto;
+        width: 100%;
+        max-width: 1450px;
+        height: 320px;
+        margin-top: 150px;
+        // padding-left: 500px;
+        //  @media (min-resolution: 2dppx) {
+        //      background: url("../img/line@2x.png") no-repeat left center;
+        //      background-size: auto;
+        //  }
+         
+    }
+
+    // .road-map__carousel-item
+
+    &__carousel-item {
+        height: 100%;
+        // margin-right: 50px;
+        // max-width: 635px;
+    }
+
+    // .road-map__carousel-img-1
+
+    &__carousel-img-1 {}
+
+    // .road-map__carousel-img-2
+
+    &__carousel-img-2 {}
+
+    // .road-map__carousel-img-3
+
+    &__carousel-img-3 {}
+
+    // .road-map__carousel-img-4
+
+    &__carousel-img-4 {}
+}
+
+.item {
+    background: #1E2A43;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 126px;
+    padding: 30px 50px 30px 30px;
+    margin-bottom: 30px;
+
+    // .item__img
+
+    &__img {
+        width: 74px;
+        height: 74px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // border: 1px solid #5C5C86;
+        background: url(../img/icons/Ellipse.svg) no-repeat;
+        background-size: auto;
+        
+    }
+
+    // .item__icons
+
+    &__icons {
+        width: 50px;
+    }
+
+    // .item__text
+
+    &__text {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 34px;
+       margin-left: 40px;
+       margin-right: 50px;
+        color: $white;
+    }
+
+    // .item__number
+
+    &__number {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 52px;
+        color: #5C5C86;
+    }
+
+    // .item__ml
+
+    &__ml {}
+}
+
+// .d-none {
+//     display: none;
+// }
+ .absolut-1{
+     width: 553px;
+
+//    position: absolute;
+//    left: 480px;
+//    top: 150px;
+
+}
+ .absolut-2 {
+     margin-left: 130px;
+//     position: absolute;
+//     bottom: 140px;
+//     left: 600px;
+    
+ }
+ .absolut-3 {
+     width: 586px;
+     margin-top: 30px;
+//     position: absolute;
+//     right: 113px;
+//     bottom: 260px;
+       
+}
+ .absolut-4 {
+     width: 635px;
+     margin-top: 30px;
+     margin-left: 80px;
+//     position: absolute;
+//     right: 0;
+//     bottom: 100px;
+  
+}
+.absolut-5{
+     width: 586px;
+}
+.absolut-6{
+    width: 553px;
+    margin-left: 80px;
+}
+.absolut-7 {
+    width: 685px;
+    margin-top: 30px;
+    
+    
+}
+.absolut-8 {
+    width: 620px;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+.absolut-9 {
+    width: 640px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-top: 170px;
+}
+.road-map__carousel-bg-1{
+    position: absolute;
+    left: 220px;
+    bottom: 160px;
+}
+
+.road-map__carousel-bg-2 {
+    position: absolute;
+    left: 950px;
+    bottom: 170px;
+}
+
+.road-map__carousel-bg-3 {
+    position: absolute;
+    right: 0;
+    bottom: 170px;
+}
+.road-map__carousel .active .item__icons path {
+    fill: $green;
+
+}
+
+.road-map__carousel .active .item__number{
+    color: $green;
+}
+
+.road-map__carousel-btn-prev{
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    z-index: 10;
+    &:focus{
+        outline: none;
+        .road-map__carousel-btn__img path {
+            fill: $yelloy;
+        }
+    }
+    
+}
+.road-map__carousel-btn-next {
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 10;
+
+    &:focus {
+        outline: none;
+        .road-map__carousel-btn__img path {
+            fill: $yelloy;
+        }
+    }
+
+}
+.road-map__carousel-btn-prev__img {
+    width: 21px;
+}
+.road-map .btn-activ .road-map__carousel-btn__img path{
+    fill: $yelloy;
+
+}
+.road-map__carousel-btn__mobile__prev,
+.road-map__carousel-btn__mobile__next {
+    display: none;
+}
+.road-map__content-number{
+    display: none;
+}
+// .d-none-1,
+// .d-none-2 {
+//     display: none;
+// }
+.road-map__carousel-bg-4{
+    display: none;
+}
+.road-map__carousel .slick-current .item__img {
+        background: url(../img/icons/Ellipse-green.svg) no-repeat;
+        background-size: contain;
+}
+.road-map__carousel .slick-current .item__icons path{
+    fill: $green;
+    stroke: $green;
+    stroke-opacity: 1;
+}
+.road-map__carousel .slick-current .item__number {
+    color: $green;
+}

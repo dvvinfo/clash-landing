@@ -1,0 +1,192 @@
+.main{
+    background: linear-gradient(180.06deg, #003C4A 14.58%, #332D56 52.37%, #353D80 75.49%, #003C4A 99.95%);
+    overflow: hidden;
+}
+.advantages {
+
+    height: 2300px;
+    // .advantages__wrapper
+
+    &__wrapper {
+        position: relative;
+        height: 100%;
+        width: auto;
+    }
+
+    // .advantages__icons
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 46px;
+        padding-right: 440px;
+    }
+}
+.advantages__icons__link {
+    margin-right: 56px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.advantages {
+
+    // .advantages__content
+
+    &__content {
+        position: relative;
+        max-width: 1857px;
+        margin-left: 300px;
+        
+    }
+
+    // .advantages__item
+
+    &__item {
+        position: relative;
+    }
+
+    // .advantages__subtitle
+
+    &__subtitle {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: $yelloy;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    // .advantages__title
+
+    &__title {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 108px;
+        color: #fff;
+        margin: 3px 0;
+        text-transform: uppercase;
+    }
+
+    // .advantages__descr
+
+    &__descr {
+        font-family: "Fira Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 36px;
+        color: $white;
+        margin: 0 17px 0 80px;
+    }
+}
+
+.one { 
+    margin-left: 455px;
+    margin-top: 35px;
+}
+
+.two {
+    margin-top: 154px;
+}
+
+.three {
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.four {
+    margin-top: 100px;
+     margin-left: 650px;
+}
+.advantages__content__img{
+    max-width: 550px;
+    width: 100%;
+    height: 550px;
+    background: url(../img/map-2.webp) no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    top: -80px;
+    @media (min-resolution: 2dppx) {
+        background: url("../img/map-2@2x.webp") no-repeat center center;
+        background-size: contain;
+    }
+}
+.advantages__item__img{
+    position: absolute;
+    top: -130px;
+    left: 300px;
+}
+.advantages__item__img-en {
+    position: absolute;
+    top: -130px;
+    left: 400px;
+}
+.advantages__item__img-1{
+    position: absolute;
+    top: -20px;
+    left:-210px;
+    
+}
+.advantages__item__img-2{
+    position: absolute;
+    right: 400px;
+    top: -80px;
+}
+.line{
+    background: url(../img/Union.webp) no-repeat right;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    width: 1562px;
+    height: 1198px;
+    @media (min-resolution: 2dppx) {
+        background: url("../img/Union@2x.webp") no-repeat right;
+        background-size: contain;
+        
+    }
+
+}
+.advantages__content__last-img-1 {
+    background: url(../img/Group-6.webp) no-repeat;
+    background-size: contain;
+    max-width: 1024px;
+    width: 100%;
+    height: 1057px;
+    position: absolute;
+    right: 320px;
+    top: -230px;
+    @media (min-resolution: 2dppx) {
+        background: url("../img/Group-6@2x.webp") no-repeat right;
+        background-size: contain;
+
+    }
+}
+.advantages__content__last-img-2{
+    background: url(../img/card.png) no-repeat;
+    max-width: 638px;
+    width: 100%;
+    height: 656px;
+    position: absolute;
+    top: -250px;
+    left: -40px;
+    @media (min-resolution: 2dppx) {
+        background: url("../img/Card@2x.png") no-repeat right;
+        background-size: contain;
+
+    }
+}
+.advantages__icons__link:active .advantages__icons__link-img path{
+    fill: $green ;
+    stroke: $green;
+}
+.skills__title-en{
+    margin-right: 300px;
+}
+.hidden-en {
+   visibility: hidden;
+}
